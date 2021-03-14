@@ -1,0 +1,42 @@
+#allure reports
+/allure-results/
+/build/reports/
+
+#Selenoid logs and video
+/selenoid/logs
+/selenoid/video
+
+# Log file
+*.log
+
+# Compiled class file
+*.class
+target/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#Jetbrains Idea
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# Eclipse
+.settings/
+.metadata/
+.project
+.classpath
+classes/
+test-output/
+
+#Others
+.DS_Store
