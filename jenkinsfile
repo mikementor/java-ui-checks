@@ -15,7 +15,7 @@ pipeline {
     stage('Run automated checks') {
         steps {
             script{
-             container('docker client') {
+             container('docker-client') {
                  sh script: "docker pull selenoid/vnc:chrome_86.0", label: 'Pull chrome'
              }
               container('maven') {
