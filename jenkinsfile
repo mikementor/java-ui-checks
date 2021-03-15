@@ -13,9 +13,6 @@ pipeline {
   } 
   stages {
     stage('Run automated checks') {
-        when {
-              changeRequest()
-            }
         steps {
             script{
               container('maven') {
