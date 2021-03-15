@@ -34,7 +34,7 @@ pipeline {
             allure includeProperties: false, jdk: '', report: '$WORKSPACE/allure-report', results: [[path: 'java-ui-checks/allure-results']]
           }
           success {
-            slackSend color: 'good', tokenCredentialId: 'slack-api-token', botUser: false, channel: '#dev_jenkins', message: "✅ ${env.BUILD_URL}|${env.JOB_NAME}. (<https://jenkins.dev.lanehealth.com/job/LaneHealth/job/java-ui-checks/job/$BRANCH_NAME/job/$BUILD_NUMBER/allure/|Allure report>)"
+            slackSend color: 'good', tokenCredentialId: 'slack-api-token', botUser: false, channel: '#dev_jenkins', message: "✅ ${env.BUILD_URL}|${env.JOB_NAME}. (<https://jenkins.dev.lanehealth.com/job/LaneHealth/job/java-ui-checks/job/$BRANCH_NAME/$BUILD_NUMBER/allure/|Allure report>)"
           }
           failure {
             slackSend color: 'danger', tokenCredentialId: 'slack-api-token', botUser: false, channel: '#dev_jenkins', message: "❌ ${env.BUILD_URL}|${env.JOB_NAME}. (<https://jenkins.dev.lanehealth.com/job/LaneHealth/job/java-ui-checks/job/$BRANCH_NAME/$BUILD_NUMBER/allure/|Allure report>)"
