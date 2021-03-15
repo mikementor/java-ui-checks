@@ -28,10 +28,10 @@ pipeline {
           always {
           container('maven') {
               script {
-                  sh script: "chmod -R 777 $WORKSPACE/java-ui-checks/allure-results", label: 'fixing permissions for allure'
+                  sh script: "chmod -R 777 $WORKSPACE/allure-results", label: 'fixing permissions for allure'
               }
             }
-            allure includeProperties: false, jdk: '', report: '$WORKSPACE/allure-report', results: [[path: 'hsa-server/allure-results']]
+            allure includeProperties: false, jdk: '', report: '$WORKSPACE/allure-report', results: [[path: 'java-ui-checks/allure-results']]
           }
           success {
             slackSend color: 'good', tokenCredentialId: 'slack-api-token', botUser: false, channel: '#dev_jenkins', message: "✅ ${env.BUILD_URL}|${env.JOB_NAME}. (<https://jenkins.dev.lanehealth.com/job/LaneHealth/job/java-ui-checks/view/change-requests/job/PR-$CHANGE_ID/$BUILD_NUMBER/allure/|Allure report>)"
