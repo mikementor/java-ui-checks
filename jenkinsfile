@@ -16,7 +16,7 @@ pipeline {
         steps {
             script{
              container('docker client') {
-                 docker pull selenoid/vnc:chrome_86.0
+                 sh script: "docker pull selenoid/vnc:chrome_86.0", label: 'Pull chrome'
              }
               container('maven') {
                  sh script: "export DOCKER_PROXY=${env.DOCKER_PROXY}; mvn test -DSHOULD_START_SELENOID=true", label: 'Run checks'
