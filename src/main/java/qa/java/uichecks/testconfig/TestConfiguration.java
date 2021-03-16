@@ -5,7 +5,7 @@ public class TestConfiguration {
 
     public static boolean SHOULD_START_SELENOID = Boolean.parseBoolean(System.getProperty("SHOULD_START_SELENOID","false"));
 
-    public static String BASE_URL = System.getProperty("BASE_URL","https://provectus.com");
+    public static String BASE_URL = System.getProperty("BASE_URL","https://bewell.dev.lanehealth.com/");
 
     public static String SELENOID_URL = System.getProperty("SELENOID_URL","http://localhost:4444/wd/hub");
 
