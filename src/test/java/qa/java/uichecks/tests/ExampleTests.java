@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.open;
 @Epic("Example")
 public class ExampleTests extends BaseTest {
 
-    @Test
+    // @Test
     @TmsLink("E8T-31")
     void exampleCheck() {
         open("/");
