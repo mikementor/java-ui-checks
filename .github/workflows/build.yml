@@ -34,8 +34,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-       - name: Start Selenoid Server
-         uses: Xotabu4/selenoid-github-action@v1
-       - name: Run tests
-         run: mvn test
+      - name: Start Selenoid Server
+        uses: Xotabu4/selenoid-github-action@v1
+      - name: Run tests
+        run: mvn test
          
