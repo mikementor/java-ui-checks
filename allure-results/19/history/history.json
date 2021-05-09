@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10595b01845422ec",
-      "reportUrl" : "https://mikementor.github.io/java-ui-checks/18//#testresult/10595b01845422ec",
+      "uid" : "83e609af8be23b5c",
+      "reportUrl" : "https://mikementor.github.io/java-ui-checks/19//#testresult/83e609af8be23b5c",
       "status" : "passed",
       "time" : {
-        "start" : 1620565692625,
-        "stop" : 1620565698369,
-        "duration" : 5744
+        "start" : 1620566008503,
+        "stop" : 1620566013540,
+        "duration" : 5037
       }
     } ]
   }
