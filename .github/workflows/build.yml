@@ -52,7 +52,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: allure-history
           publish_branch: gh-pages
-          destination_dir: allure-results/${{ github.run_number }}
+          destination_dir: ./allure-results
       - name: Post the link to allure report
         if: always()
         uses: Sibz/github-status-action@v1
