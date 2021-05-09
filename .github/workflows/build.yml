@@ -49,10 +49,11 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v3
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
           destination_dir: allure-results
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Post the link to allure report
         if: always()
         uses: Sibz/github-status-action@v1
