@@ -48,12 +48,11 @@ jobs:
       - name: Deploy allure report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
-        env:
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
-          destination_dir: allure-results
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-history
+          publish_branch: gh-pages
+          destination_dir: allure-results/${{ github.run_number }}
       - name: Post the link to allure report
         if: always()
         uses: Sibz/github-status-action@v1
@@ -62,6 +61,6 @@ jobs:
             context: 'Test report'
             state: 'success'
             sha: ${{ github.event.pull_request.head.sha }}
-            target_url: https://${{ github.repository_owner }}.github.io/java-ui-checks/${{ github.run_number }}
+            target_url: https://${{ github.repository_owner }}.github.io/java-ui-checks/allure-results/${{ github.run_number }}
 
          
