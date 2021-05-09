@@ -1,0 +1,22 @@
+{
+  "664b62abc4c745f428ab0976921f54fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61f9de5f73b3d5f2",
+      "reportUrl" : "https://mikementor.github.io/java-ui-checks/11//#testresult/61f9de5f73b3d5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620560428941,
+        "stop" : 1620560434287,
+        "duration" : 5346
+      }
+    } ]
+  }
+}
