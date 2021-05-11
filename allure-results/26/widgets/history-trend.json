@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 25,
-  "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/25/",
+  "buildOrder" : 26,
+  "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/26/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
