@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 20,
+  "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/20/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 1,
+    "retry" : 0
+  }
+} ]

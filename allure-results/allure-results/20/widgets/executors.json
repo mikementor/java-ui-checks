@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://mikementor.github.io/java-ui-checks/allure-results",
+  "buildOrder" : 20,
+  "buildName" : "GitHub Actions Run #831218828",
+  "buildUrl" : "https://github.com/mikementor/java-ui-checks/actions/runs/831218828",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/20/"
+} ]
