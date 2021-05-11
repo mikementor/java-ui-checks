@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "qa.java.uichecks.tests.ExampleTests",
+    "children" : [ {
+      "name" : "example check",
+      "uid" : "4a0169c30f93413c",
+      "parentUid" : "bf291dad9eba78bc646d504e1ebf423c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620726859083,
+        "stop" : 1620726864975,
+        "duration" : 5892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf291dad9eba78bc646d504e1ebf423c"
+  } ],
+  "name" : "suites"
+}
