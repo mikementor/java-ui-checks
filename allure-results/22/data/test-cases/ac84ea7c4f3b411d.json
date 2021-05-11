@@ -1,12 +1,12 @@
 {
-  "uid" : "4a0169c30f93413c",
+  "uid" : "ac84ea7c4f3b411d",
   "name" : "example check",
   "fullName" : "qa.java.uichecks.tests.ExampleTests.exampleCheck",
   "historyId" : "664b62abc4c745f428ab0976921f54fc",
   "time" : {
-    "start" : 1620726859083,
-    "stop" : 1620726864975,
-    "duration" : 5892
+    "start" : 1620727321009,
+    "stop" : 1620727326392,
+    "duration" : 5383
   },
   "description" : "",
   "status" : "passed",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "$(\"open\") https://ya.ru/",
       "time" : {
-        "start" : 1620726859173,
-        "stop" : 1620726864954,
-        "duration" : 5781
+        "start" : 1620727321082,
+        "stop" : 1620727326372,
+        "duration" : 5290
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,10 +45,10 @@
     "value" : "Example"
   }, {
     "name" : "host",
-    "value" : "fv-az272-60"
+    "value" : "fv-az182-381"
   }, {
     "name" : "thread",
-    "value" : "4090@fv-az272-60.main(1)"
+    "value" : "4023@fv-az182-381.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4a0169c30f93413c.json",
+  "source" : "ac84ea7c4f3b411d.json",
   "parameterValues" : [ ]
 }
