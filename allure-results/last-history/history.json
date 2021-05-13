@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "171a00242433fccc",
-      "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/31//#testresult/171a00242433fccc",
+      "uid" : "8bc4c38d21faf52f",
+      "reportUrl" : "https://mikementor.github.io/java-ui-checks/allure-results/32//#testresult/8bc4c38d21faf52f",
       "status" : "passed",
       "time" : {
-        "start" : 1620898300332,
-        "stop" : 1620898305330,
-        "duration" : 4998
+        "start" : 1620898463447,
+        "stop" : 1620898468464,
+        "duration" : 5017
       }
     } ]
   }
