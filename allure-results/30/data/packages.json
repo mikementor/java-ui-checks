@@ -4,13 +4,13 @@
     "name" : "qa.java.uichecks.tests.ExampleTests",
     "children" : [ {
       "name" : "exampleCheck",
-      "uid" : "1f0922822d74833e",
+      "uid" : "59caee0eacc445de",
       "parentUid" : "1860731608bfb76b794c581b2e2559ff",
       "status" : "passed",
       "time" : {
-        "start" : 1620897852293,
-        "stop" : 1620897857790,
-        "duration" : 5497
+        "start" : 1620897957932,
+        "stop" : 1620897963082,
+        "duration" : 5150
       },
       "flaky" : false,
       "newFailed" : false,
