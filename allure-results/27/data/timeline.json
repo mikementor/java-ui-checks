@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az275-726",
+    "children" : [ {
+      "name" : "3669@fv-az275-726.main(1)",
+      "children" : [ {
+        "name" : "example check",
+        "uid" : "d866cb7941357295",
+        "parentUid" : "874bb5af058b90de363185c33d1fc6d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620897062021,
+          "stop" : 1620897068141,
+          "duration" : 6120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "874bb5af058b90de363185c33d1fc6d7"
+    } ],
+    "uid" : "2e7a3da1dc7c9db005e1a1f73eea7405"
+  } ],
+  "name" : "timeline"
+}

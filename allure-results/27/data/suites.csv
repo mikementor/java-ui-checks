@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 13 09:11:02 GMT 2021","Thu May 13 09:11:08 GMT 2021","6120","","qa.java.uichecks.tests.ExampleTests","","qa.java.uichecks.tests.ExampleTests","exampleCheck","example check",""
