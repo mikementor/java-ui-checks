@@ -4,13 +4,13 @@
     "name" : "Example",
     "children" : [ {
       "name" : "example check",
-      "uid" : "59caee0eacc445de",
+      "uid" : "171a00242433fccc",
       "parentUid" : "edcc8f79425c3ceb04e1a57acd5799c7",
       "status" : "passed",
       "time" : {
-        "start" : 1620897957932,
-        "stop" : 1620897963082,
-        "duration" : 5150
+        "start" : 1620898300332,
+        "stop" : 1620898305330,
+        "duration" : 4998
       },
       "flaky" : false,
       "newFailed" : false,
