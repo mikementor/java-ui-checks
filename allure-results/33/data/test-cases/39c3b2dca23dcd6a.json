@@ -1,12 +1,12 @@
 {
-  "uid" : "8bc4c38d21faf52f",
+  "uid" : "39c3b2dca23dcd6a",
   "name" : "example check",
   "fullName" : "qa.java.uichecks.tests.ExampleTests.exampleCheck",
   "historyId" : "664b62abc4c745f428ab0976921f54fc",
   "time" : {
-    "start" : 1620898463447,
-    "stop" : 1620898468464,
-    "duration" : 5017
+    "start" : 1621324248115,
+    "stop" : 1621324253816,
+    "duration" : 5701
   },
   "description" : "",
   "status" : "passed",
@@ -19,25 +19,25 @@
     "steps" : [ {
       "name" : "$(\"open\") https://ya.ru/",
       "time" : {
-        "start" : 1620898463500,
-        "stop" : 1620898468434,
-        "duration" : 4934
+        "start" : 1621324248195,
+        "stop" : 1621324253794,
+        "duration" : 5599
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -45,10 +45,10 @@
     "value" : "Example"
   }, {
     "name" : "host",
-    "value" : "fv-az132-98"
+    "value" : "fv-az272-119"
   }, {
     "name" : "thread",
-    "value" : "3550@fv-az132-98.main(1)"
+    "value" : "3459@fv-az272-119.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8bc4c38d21faf52f.json",
+  "source" : "39c3b2dca23dcd6a.json",
   "parameterValues" : [ ]
 }
