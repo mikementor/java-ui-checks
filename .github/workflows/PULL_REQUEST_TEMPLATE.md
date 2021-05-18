@@ -1,7 +1,12 @@
 <!-- ignore-task-list-start -->
 - [ ] **Breaking change?** (if so, please describe the impact and migration path for existing applications:)
 
-**How Has This Been Tested?**
+**What changes did you make?** (Give an overview)
+
+**Is there anything you'd like reviewers to focus on?**
+
+
+**How Has This Been Tested?** (put an "X" next to an item)
 - [ ] No need to
 - [ ] Manually(please, describe, when necessary)
 - [ ] Unit checks
@@ -9,7 +14,7 @@
 - [ ] Covered by existing automation
 <!-- ignore-task-list-end -->
 
-**Checklist**
+**Checklist** (put an "X" next to an item, otherwise PR will fail)
 - [ ] I have performed a self-review of my own code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation (e.g. **ENVIRONMENT VARIABLES**)
